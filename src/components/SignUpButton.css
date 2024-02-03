@@ -1,0 +1,24 @@
+.sign-up-button-container {
+    margin: 0;
+    position: fixed;
+    top: 60%;
+    left:0;
+    width: 180px;
+    background-color: #d91c5b;
+    transition: transform 0.3s ease; 
+}
+
+
+
+
+.sign-up-link {
+    margin: 0;
+    color: white;
+    padding: 10px;
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.8rem;
+    display: block; 
+    text-align: center; 
+    text-decoration: none; 
+
+}

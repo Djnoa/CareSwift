@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@600&family=Inter&family=Kreon:wght@600&display=swap');
+
+.navigation-bar-component {
+    position: fixed;
+    z-index: 2;
+    /* background-color: transparent; */
+    width:100%;
+    display: block;
+    transition: background-color 0.8s; 
+}
+
+.navigation-list-component {
+    margin-top: 10px;
+    padding: 10px 10px 10px 50px;
+    display: flex;
+    background-color: #008B95;
+    list-style: none;
+    gap: 50px;
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.3rem;
+    margin-bottom:0;
+    transition:  background-color 0.8s; 
+    
+}
+
+.navigation-link-component {
+    color: black;
+    text-decoration: none;
+}
+
+.logo-div-nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-nav, .logo-heading-nav {
+    transition: all 1s ease;
+}
+
+.logo-nav {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.logo-heading-nav {
+    margin-top: 100px;
+    font-family: 'Kreon', serif;
+}
+
+
+.logo-nav.large {
+    width: 200px; 
+}
+
+.logo-nav.small {
+    width: 160px; 
+}
+
+.logo-heading-nav.large {
+    font-size: 3.4rem; 
+}
+
+.logo-heading-nav.small {
+    font-size: 2.6rem; 
+}
+

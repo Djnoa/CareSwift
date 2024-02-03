@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@600&family=Inter&family=Kreon:wght@600&display=swap');
+
+.main-container-role {
+    padding:0;
+    margin:0;
+    flex-direction: column;
+    align-items: center;
+}
+
+.role-select-heading {
+    justify-self: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    text-align: center;
+    padding: 5px 10px;
+    font-family: 'Kreon', sans-serif;
+    font-size: 4rem;
+    border-left: 10px solid #008B95;
+    width: 53%;
+    z-index: 2;
+    
+
+}
+
+.logo-role-page {
+    width: 20vw;
+    margin-left: 20%;
+}
+
+.role {
+    margin-top: 10%;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 600;
+    width: 400px;
+    padding: 40px;
+    border-radius: 60px;
+    text-align: center;
+    filter: drop-shadow(0px 5px #00000020);
+    
+
+}
+
+
+.role-link {
+    text-decoration: none;
+
+}
+
+.choice-container {
+   margin-left: 200px;
+}
+
+.client {
+    color: white;
+    background-color:#D91C5C ;
+    
+}
+
+.carer {
+    color: black;
+    background-color:#FFB431;
+    
+
+}
+
+
+
+.role-image {
+    width: 100%;
+    height: 480.75px;
+   
+
+}
+
+
